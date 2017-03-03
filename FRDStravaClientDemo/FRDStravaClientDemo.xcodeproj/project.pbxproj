@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0AB44197E6F84B128019FABE /* libPods-FRDStravaClientDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9078EBFF324CF9876BD37C /* libPods-FRDStravaClientDemo.a */; };
 		28199D29191EDCAF00EE7C4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28199D28191EDCAF00EE7C4E /* Foundation.framework */; };
 		28199D2B191EDCAF00EE7C4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28199D2A191EDCAF00EE7C4E /* CoreGraphics.framework */; };
 		28199D2D191EDCAF00EE7C4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28199D2C191EDCAF00EE7C4E /* UIKit.framework */; };
@@ -86,6 +85,7 @@
 		28E0CA5E19328B5E004DEA75 /* ZoneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0CA5D19328B5E004DEA75 /* ZoneTableViewCell.m */; };
 		28E0CA991936D3BE004DEA75 /* StravaActivityComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0CA981936D3BE004DEA75 /* StravaActivityComment.m */; };
 		28E0CA9F1936D7B7004DEA75 /* ActivityCommentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0CA9E1936D7B7004DEA75 /* ActivityCommentsTableViewController.m */; };
+		689280CDA141BA61F70607B0 /* libPods-FRDStravaClientDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C31201F15560C02547E8FFAD /* libPods-FRDStravaClientDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -241,8 +241,9 @@
 		28E0CA981936D3BE004DEA75 /* StravaActivityComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StravaActivityComment.m; sourceTree = "<group>"; };
 		28E0CA9D1936D7B7004DEA75 /* ActivityCommentsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityCommentsTableViewController.h; sourceTree = "<group>"; };
 		28E0CA9E1936D7B7004DEA75 /* ActivityCommentsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityCommentsTableViewController.m; sourceTree = "<group>"; };
-		ED9078EBFF324CF9876BD37C /* libPods-FRDStravaClientDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FRDStravaClientDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD1AD5BB3633458F93C31110 /* Pods-FRDStravaClientDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRDStravaClientDemo.xcconfig"; path = "Pods/Pods-FRDStravaClientDemo.xcconfig"; sourceTree = "<group>"; };
+		344494FBEE351169557B5E11 /* Pods-FRDStravaClientDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRDStravaClientDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FRDStravaClientDemo/Pods-FRDStravaClientDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BA4CA77B75E83E1A891F765D /* Pods-FRDStravaClientDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRDStravaClientDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FRDStravaClientDemo/Pods-FRDStravaClientDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C31201F15560C02547E8FFAD /* libPods-FRDStravaClientDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FRDStravaClientDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,7 +254,7 @@
 				28199D2B191EDCAF00EE7C4E /* CoreGraphics.framework in Frameworks */,
 				28199D2D191EDCAF00EE7C4E /* UIKit.framework in Frameworks */,
 				28199D29191EDCAF00EE7C4E /* Foundation.framework in Frameworks */,
-				0AB44197E6F84B128019FABE /* libPods-FRDStravaClientDemo.a in Frameworks */,
+				689280CDA141BA61F70607B0 /* libPods-FRDStravaClientDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +278,7 @@
 				28199D47191EDCAF00EE7C4E /* FRDStravaClientDemoTests */,
 				28199D27191EDCAF00EE7C4E /* Frameworks */,
 				28199D26191EDCAF00EE7C4E /* Products */,
-				FD1AD5BB3633458F93C31110 /* Pods-FRDStravaClientDemo.xcconfig */,
+				C5A83CEFB6F7FAC97B988034 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -297,7 +298,7 @@
 				28199D2A191EDCAF00EE7C4E /* CoreGraphics.framework */,
 				28199D2C191EDCAF00EE7C4E /* UIKit.framework */,
 				28199D41191EDCAF00EE7C4E /* XCTest.framework */,
-				ED9078EBFF324CF9876BD37C /* libPods-FRDStravaClientDemo.a */,
+				C31201F15560C02547E8FFAD /* libPods-FRDStravaClientDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -645,6 +646,15 @@
 			name = "Segments & Efforts";
 			sourceTree = "<group>";
 		};
+		C5A83CEFB6F7FAC97B988034 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				344494FBEE351169557B5E11 /* Pods-FRDStravaClientDemo.debug.xcconfig */,
+				BA4CA77B75E83E1A891F765D /* Pods-FRDStravaClientDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -652,11 +662,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28199D51191EDCAF00EE7C4E /* Build configuration list for PBXNativeTarget "FRDStravaClientDemo" */;
 			buildPhases = (
-				1A7D1E4B20DD4DF0814C4922 /* Check Pods Manifest.lock */,
+				38463AC245E7EE67B1BED98B /* [CP] Check Pods Manifest.lock */,
 				28199D21191EDCAF00EE7C4E /* Sources */,
 				28199D22191EDCAF00EE7C4E /* Frameworks */,
 				28199D23191EDCAF00EE7C4E /* Resources */,
-				3303C62663754E65ABDD231F /* Copy Pods Resources */,
+				7C5BFF92B641EFD3063A9FDA /* [CP] Embed Pods Frameworks */,
+				9C575DF9EC36430AA9C2533C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -745,34 +756,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1A7D1E4B20DD4DF0814C4922 /* Check Pods Manifest.lock */ = {
+		38463AC245E7EE67B1BED98B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		3303C62663754E65ABDD231F /* Copy Pods Resources */ = {
+		7C5BFF92B641EFD3063A9FDA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-FRDStravaClientDemo-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FRDStravaClientDemo/Pods-FRDStravaClientDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C575DF9EC36430AA9C2533C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FRDStravaClientDemo/Pods-FRDStravaClientDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -956,7 +982,7 @@
 		};
 		28199D52191EDCAF00EE7C4E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD1AD5BB3633458F93C31110 /* Pods-FRDStravaClientDemo.xcconfig */;
+			baseConfigurationReference = 344494FBEE351169557B5E11 /* Pods-FRDStravaClientDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -971,7 +997,7 @@
 		};
 		28199D53191EDCAF00EE7C4E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD1AD5BB3633458F93C31110 /* Pods-FRDStravaClientDemo.xcconfig */;
+			baseConfigurationReference = BA4CA77B75E83E1A891F765D /* Pods-FRDStravaClientDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

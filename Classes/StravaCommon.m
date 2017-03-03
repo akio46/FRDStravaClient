@@ -30,7 +30,19 @@
                                                                            @"rollerski": @(kActivityTypeRollerSki),
                                                                            @"windsurf": @(kActivityTypeWindsurf),
                                                                            @"snowboard": @(kActivityTypeSnowboard),
-                                                                           @"snowshoe": @(kActivityTypeSnowshoe)
+                                                                           @"snowshoe": @(kActivityTypeSnowshoe),
+                                                                           @"rockclimbing": @(kActivityTypeRockClimbing),
+                                                                           @"Rowing": @(kActivityTypeRowing),
+                                                                           @"canoeing": @(kActivityTypeCanoeing),
+                                                                           @"stairstepper": @(kActivityTypeStairStepper),
+                                                                           @"standuppeddling": @(kActivityTypeStandUpPaddling),
+                                                                           @"ebikeride": @(kActivityTypeEBikeRide),
+                                                                           @"surfing": @(kActivityTypeSurfing),
+                                                                           @"elliptical": @(kActivityTypeElliptical),
+                                                                           @"virtualride": @(kActivityTypeVirtualRide),
+                                                                           @"weighttraining": @(kActivityTypeWeightTraining),
+                                                                           @"kayaking": @(kActivityTypeKayaking),
+                                                                           @"yoga": @(kActivityTypeYoga)
                                                                            }
                                                             defaultValue:@(kActivityTypeUnknown)
                                                      reverseDefaultValue:@"unknown"];

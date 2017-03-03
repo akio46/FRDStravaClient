@@ -49,7 +49,19 @@ typedef NS_ENUM(NSInteger, kActivityType) {
     kActivityTypeRollerSki,
     kActivityTypeWindsurf,
     kActivityTypeSnowboard,
-    kActivityTypeSnowshoe
+    kActivityTypeSnowshoe,
+    kActivityTypeRockClimbing,
+    kActivityTypeRowing,
+    kActivityTypeCanoeing,
+    kActivityTypeStairStepper,
+    kActivityTypeStandUpPaddling,
+    kActivityTypeEBikeRide,
+    kActivityTypeSurfing,
+    kActivityTypeElliptical,
+    kActivityTypeVirtualRide,
+    kActivityTypeWeightTraining,
+    kActivityTypeKayaking,
+    kActivityTypeYoga
 };
 
 
