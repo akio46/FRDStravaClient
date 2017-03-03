@@ -49,7 +49,7 @@
                             ICON_SNOWBOARD1 // kActivityTypeSnowshoe
     };
 
-    return codes[activityType];
+    return codes[activityType % 17];
 }
 
 +(CGFloat) fontSizeFactorForActivityType:(kActivityType)activityType
@@ -77,7 +77,7 @@
     };
     
     
-    return sizes[activityType];
+    return sizes[activityType % 17];
 
 }
 
