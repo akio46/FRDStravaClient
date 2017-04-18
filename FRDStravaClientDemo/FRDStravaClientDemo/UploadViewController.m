@@ -92,6 +92,7 @@
                                                 name:name
                                         activityType:kActivityTypeRide
                                             dataType:dataType
+                                         description:@""
                                              private:NO
                                              success:^(StravaActivityUploadStatus *uploadStatus) {
                                                  self.isUploading = NO;

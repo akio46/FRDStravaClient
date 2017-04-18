@@ -40,6 +40,7 @@ typedef NS_ENUM(NSInteger, kUploadDataType) {
                   name:(NSString *)name
           activityType:(kActivityType)activityType
               dataType:(kUploadDataType)dataType
+           description:(NSString *)description
                private:(BOOL)private
                success:(void (^)(StravaActivityUploadStatus *uploadStatus))success
                failure:(void (^)(NSError *error))failure;

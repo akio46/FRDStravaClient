@@ -17,6 +17,7 @@
                   name:(NSString *)name
           activityType:(kActivityType)activityType
               dataType:(kUploadDataType)dataType
+           description:(NSString *)description
                private:(BOOL)private
                success:(void (^)(StravaActivityUploadStatus *uploadStatus))success
                failure:(void (^)(NSError *error))failure
@@ -56,6 +57,7 @@ constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
             [formData appendPartWithFormData:[activityTypeStr dataUsingEncoding:NSUTF8StringEncoding] name:@"activity_type"];
             [formData appendPartWithFormData:[dataTypeStr dataUsingEncoding:NSUTF8StringEncoding] name:@"data_type"];
             [formData appendPartWithFormData:[name dataUsingEncoding:NSUTF8StringEncoding] name:@"name"];
+            [formData appendPartWithFormData:[description dataUsingEncoding:NSUTF8StringEncoding] name:@"description"];
 
             NSError *error;
     
